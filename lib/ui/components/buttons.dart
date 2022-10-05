@@ -32,7 +32,7 @@ Widget buttonWithBorder(
               ? const LinearGradient(
                   begin: Alignment.bottomLeft,
                   end: Alignment.topRight,
-                  colors: [AppColors.primary, AppColors.primary2],
+                  colors: [AppColors.primary, AppColors.red],
                 )
               : null,
           color: isActive ? buttonColor : buttonColor!.withOpacity(.6),
@@ -107,7 +107,7 @@ Widget buttonWithBorder2(
           gradient: const LinearGradient(
             begin: Alignment.bottomLeft,
             end: Alignment.topRight,
-            colors: [AppColors.primary, AppColors.primary2],
+            colors: [AppColors.primary, AppColors.red],
           ),
           color: isActive ? buttonColor : buttonColor!.withOpacity(.6),
           borderRadius: BorderRadius.circular(borderRadius ?? 4.h),
