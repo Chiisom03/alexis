@@ -1,5 +1,5 @@
 import 'package:alexis/ui/components/text_widgets.dart';
-import 'package:alexis/ui/pages/play.dart';
+import 'package:alexis/ui/pages/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
