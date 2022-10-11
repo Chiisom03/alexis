@@ -5,14 +5,20 @@ class PngAsset extends StatelessWidget {
   const PngAsset(
     this.image, {
     Key? key,
+    this.height,
+    this.width,
   }) : super(key: key);
 
   final String image;
+  final double? height;
+  final double? width;
 
   @override
   Widget build(BuildContext context) {
     return Image.asset(
       'assets/images/$image.png',
+      height: height,
+      width: width,
       fit: BoxFit.cover,
     );
   }

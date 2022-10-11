@@ -32,7 +32,7 @@ Widget buttonWithBorder(
               ? const LinearGradient(
                   begin: Alignment.bottomLeft,
                   end: Alignment.topRight,
-                  colors: [AppColors.primary, AppColors.red],
+                  colors: [AppColors.primary, AppColors.red200],
                 )
               : null,
           color: isActive ? buttonColor : buttonColor!.withOpacity(.6),
@@ -107,7 +107,7 @@ Widget buttonWithBorder2(
           gradient: const LinearGradient(
             begin: Alignment.bottomLeft,
             end: Alignment.topRight,
-            colors: [AppColors.primary, AppColors.red],
+            colors: [AppColors.primary, AppColors.red200],
           ),
           color: isActive ? buttonColor : buttonColor!.withOpacity(.6),
           borderRadius: BorderRadius.circular(borderRadius ?? 4.h),
@@ -166,7 +166,7 @@ class NavButton extends StatelessWidget {
       height: 40.w,
       width: 40.w,
       decoration: BoxDecoration(
-          border: Border.all(width: 1.w, color: AppColors.grey2),
+          border: Border.all(width: 1.w, color: AppColors.grey400),
           borderRadius: BorderRadius.circular(12.r)),
       child: InkWell(
         borderRadius: BorderRadius.circular(12.r),

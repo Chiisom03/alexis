@@ -117,14 +117,14 @@ class _CustomTextFieldState extends State<CustomTextField> {
                 contentPadding: EdgeInsets.all(15.h),
                 hintText: widget.hintText,
                 hintStyle: TextStyle(
-                  color: AppColors.grey2,
+                  color: AppColors.grey400,
                   fontSize: 14.sp,
                   fontWeight: FontWeight.w500,
                 ),
                 filled: true,
                 fillColor: AppColors.white,
                 errorStyle: TextStyle(
-                  color: AppColors.red,
+                  color: AppColors.red600,
                   fontSize: 10.5.sp,
                   fontWeight: FontWeight.w400,
                 ),
@@ -142,7 +142,7 @@ class _CustomTextFieldState extends State<CustomTextField> {
                                     '+234',
                                     color: _hasFocus
                                         ? AppColors.primary
-                                        : AppColors.grey2,
+                                        : AppColors.grey400,
                                     fontSize: 14.sp,
                                     fontWeight: FontWeight.w500,
                                   ),
@@ -150,10 +150,11 @@ class _CustomTextFieldState extends State<CustomTextField> {
                               ),
                             ),
                             VerticalDivider(
-                                color: _hasFocus
-                                    ? AppColors.primary
-                                    : AppColors.grey2,
-                                thickness: 1.h)
+                              color: _hasFocus
+                                  ? AppColors.primary
+                                  : AppColors.grey400,
+                              thickness: 1.h,
+                            )
                           ],
                         ),
                       )
@@ -169,7 +170,7 @@ class _CustomTextFieldState extends State<CustomTextField> {
                                   width: 20.h,
                                   color: _hasFocus
                                       ? AppColors.primary
-                                      : AppColors.grey2,
+                                      : AppColors.grey400,
                                 )
                               ],
                             ),
@@ -193,28 +194,28 @@ class _CustomTextFieldState extends State<CustomTextField> {
                 ),
                 errorBorder: OutlineInputBorder(
                   borderSide: BorderSide(
-                    color: AppColors.red,
+                    color: AppColors.red600,
                     width: 1.h,
                   ),
                   borderRadius: BorderRadius.circular(8.h),
                 ),
                 focusedErrorBorder: OutlineInputBorder(
                   borderSide: BorderSide(
-                    color: AppColors.red,
+                    color: AppColors.red600,
                     width: 1.h,
                   ),
                   borderRadius: BorderRadius.circular(8.h),
                 ),
                 enabledBorder: OutlineInputBorder(
                   borderSide: BorderSide(
-                    color: AppColors.grey2,
+                    color: AppColors.grey400,
                     width: 1.h,
                   ),
                   borderRadius: BorderRadius.circular(8.h),
                 ),
                 disabledBorder: OutlineInputBorder(
                   borderSide: BorderSide(
-                    color: AppColors.grey2,
+                    color: AppColors.grey400,
                     width: 1.h,
                   ),
                   borderRadius: BorderRadius.circular(8.h),
